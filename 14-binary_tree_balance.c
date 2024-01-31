@@ -39,7 +39,7 @@ int binary_tree_balance(const binary_tree_t *tree)
 	if (tree)
 	{
 		left = ((int)binary_tree_height_b(tree->left));
-		right = ((int)bianry_tree_height_b(tree->right));
+		right = ((int)binary_tree_height_b(tree->right));
 		total = left - right;
 	}
 	return (total);
