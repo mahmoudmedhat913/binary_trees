@@ -1,6 +1,6 @@
 #include "binary_trees.h"
 
-/**
+**
  * binary_tree_node - create binary node
  * @parent: node
  * @value: value
